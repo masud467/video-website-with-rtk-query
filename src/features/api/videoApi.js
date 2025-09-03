@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const videoApi = createApi({
   reducerPath: "videoApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:9000",
+    baseUrl: "https://video-website-with-rtk-query.onrender.com",
   }),
   tagTypes: ["Videos", "Video", "RelatedVideos"],
   endpoints: (builder) => ({
